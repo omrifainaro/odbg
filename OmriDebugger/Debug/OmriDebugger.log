@@ -1,0 +1,39 @@
+﻿  Handlers.c
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(3): warning C4029: declared formal parameter list different from definition
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(21): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(21): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(33): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'PVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(39): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'PVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(43): warning C4477: 'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'PVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(46): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'PVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(54): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'LPTHREAD_START_ROUTINE'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(55): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'LPVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(69): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'LPVOID'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\handlers.c(72): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'LPVOID'
+  Source.c
+  User.c
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(24): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(27): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(36): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(45): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(51): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(53): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(55): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(57): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(64): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(66): warning C4013: 'printPEData' undefined; assuming extern returning int
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(68): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(72): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(75): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(81): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(83): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(85): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(87): warning C4047: '=': 'LPVOID' differs in levels of indirection from 'long'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(95): warning C4020: 'strcmp': too many actual parameters
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(121): warning C4047: 'return': 'int' differs in levels of indirection from 'PARSED_USER_LINE *'
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(173): warning C4013: 'handleEvent' undefined; assuming extern returning int
+  Generating Code...
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(108): warning C4716: 'userSingleStep': must return a value
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(164): warning C4716: 'runProcess': must return a value
+c:\users\omri.fainaro\source\repos\omridebugger\omridebugger\user.c(169): warning C4716: 'continueDebuggingLoop': must return a value
+  OmriDebugger.vcxproj -> C:\Users\omri.fainaro\source\repos\OmriDebugger\Debug\OmriDebugger.exe
